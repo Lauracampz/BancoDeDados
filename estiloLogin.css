@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    display: block;
+    display: block;
+    height: 55px; width: 400px; margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black; font-size: 16pt;
+    padding: 10px 20px;
+}
+select {
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    margin: 0px;
+    border-radius: 10px;
+    border: 1px solid black; /* Adicionado para definir a cor da borda */
+    font-size: 10pt;
+    padding: 5px 0px;
+}
+body{
+    background-image:url("../Imagens/fundoLoginCadastro.png");
+}
+
+div#corpo-form {
+    
+    width: 420px;
+    margin: 130px auto 0px auto;
+
+}
+div#corpo-form h1 {
+    
+    text-align: center;
+    padding: 20px;
+
+}
+a{
+    color : black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+fieldset {
+    border: 2px solid black;
+    height: 70px; width: 350px; margin: 25px;
+    border-radius: 10px;
+    display:block;
+    padding: 10px;
+}
+
+legend {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}

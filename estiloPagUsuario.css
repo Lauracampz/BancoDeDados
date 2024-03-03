@@ -1,0 +1,197 @@
+
+        /* Adicione um estilo para as estrelas */
+        .estrela {
+            color: orange;
+        }
+
+        /* Adicione um estilo para os cards */
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 70px;
+            margin: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            background-color: #fff;
+            max-width: 600px; /* Defina a largura máxima dos cards */
+            width: 100%; /* Faz com que os cards ocupem toda a largura disponível */
+            margin-top: 70px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Adicione um estilo para as imagens */
+        .imagem-servico {
+            width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+            height: 200px; /* Define a altura da imagem */
+            object-fit: cover;
+            border-radius: 10px 10px 0 0; /* Adiciona bordas arredondadas apenas à parte superior da imagem */
+        }
+
+        /* Adicione um estilo para o contêiner do texto */
+        .texto {
+            padding: 15px;
+        }
+
+        /* Adicione um estilo para o título */
+        h2 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        /* Adicione um estilo para o texto */
+        p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        /* Adicione um estilo para a lista de avaliações */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Adicione um estilo para as estrelas */
+        .estrela {
+            color: orange;
+        }
+
+        /* Adicione um estilo para a imagem de fundo */
+        body {
+            background-image: url("../Imagens/fundoLoginCadastro.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            display: flex;
+            flex-direction: column; /* Ajuste para coluna */
+            align-items: center; /* Centralizar conteúdo */
+        }
+
+        /* Adicione um estilo para a barra de navegação no topo */
+        .navbar-top {
+            background-color: black; /* Alterado para preto */
+            overflow: hidden;
+            padding: 10px;
+            width: 100%;
+            height: 15px;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            margin-bottom: 0px; /* Adicione uma margem na parte inferior */
+            color: white; /* Alterado para branco */
+        }
+
+        /* Adicione um estilo para os links da barra de navegação no topo */
+        .navbar-top a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 0px 16px;
+            text-decoration: none;
+            margin: 0px;
+        }
+
+        /* Adicione um estilo para os links da barra de navegação no topo no hover */
+        .navbar-top a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Adicione um estilo para a barra lateral */
+        .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1000;
+            top: 60px;
+            left: 0;
+            background-color: black; /* Alterado para preto */
+            padding-top: 20px;
+            padding-left: 10px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin-left: 0; /* Alterado para 0 */
+        }
+
+        /* Adicione um estilo para os links da barra lateral */
+        .sidebar a {
+            padding: 8px 8px 8px 16px;
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        /* Adicione um estilo para os links da barra lateral no hover */
+        .sidebar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .inserir-area-servico {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background-color: #fff; /* Cor de fundo opcional */
+            border: 1px solid #000;
+            border-radius: 8px;
+            padding: 20px;
+            width: 20%; /* Ajuste a largura conforme necessário */
+            height: 90%;
+            margin: 20px;
+        }
+
+        .categoria-container {
+            border: 1px solid #000;
+            border-radius: 8px;
+            padding: px;
+            margin-bottom: 20px;
+        }
+
+        .categoria-titulo {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+
+        /* Adiciona estilos para o campo de seleção de categorias */
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 0px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Adiciona estilos para as especializações */
+        #especializacoes {
+            margin-top: 5px;
+        }
+
+        input[type="checkbox"],
+        label {
+            margin-right: 10px;
+        }

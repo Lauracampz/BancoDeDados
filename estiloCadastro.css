@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("../Imagens/fundoLoginCadastro.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#corpo-form {
+    width: 420px;
+    margin: 50px auto 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, select {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+#dados_autonomo {
+    display: none;
+}
+
+#tipo_cadastro_autonomo:checked ~ #dados_autonomo {
+    display: block;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px; 
+    margin-bottom: 0; 
+    padding: 0;
+}
+
+.cadastrar-btn {
+    width: 100%; /* Define a largura como 100% do container pai */
+    padding: 10px; /* Adiciona algum preenchimento interno para melhor aparência */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px black; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
